@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ST MARY'S MEDICAL OUTPATIENT HOSPITAL</title>
+
+</head>
+
+<body>
+
+    <h1>ST Mary's medical outpatient hospital</h1>
+    <hr>
+
+    <p>
+        Welcome to ST Mary's outpatient Medical hospital.
+        We provide quality medical services to patients.
+        Every patient must register below before seeing a doctor.
+    </p>
+
+    <!-- Patient Registration -->
+
+    <h2>1. Patient Registration</h2>
+
+    <p>Every patient must register here first before receiving medical services.</p>
+
+    <form onsubmit="alert('Registration Successful!'); return false;">
+
+        <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" required placeholder="Enter your name">
+        </div>
+
+        <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" required placeholder="Enter phone number">
+        </div>
+
+        <div class="form-group">
+            <label for="service">list service</label>
+            <select id="service" required>
+                <li value="">-- list --</li>
+                <li>General Consultation</li>
+                <li>Meternal and Child Health</li>
+                <li>physiotherapy & rehabilitation</li>
+                <li>Dental Care</li>
+                <li>Diagnostics & Imaging</li>
+            </select>
+        </div>
+
+        
+
+    </form>
+
+    <!-- Medical Services Schedule and Fees -->
+
+    <h2>2. Medical Services Schedule and Fees</h2>
+
+    <table>
+        <th>
+            <tr>
+                <th>Medical Service</th>
+                <th>Doctor Name</th>
+                <th>Available Days</th>
+                <th>Time Slot</th>
+                <th>Consultation Fee</th>
+            </tr>
+        </th>
+
+        <tbody>
+            <tr>
+                <td>General Consultation</td>
+                <td>Dr. Samuel Karanja</td>
+                <td>Monday - Friday</td>
+                <td>08:00 AM - 12:00 PM</td>
+                <td>Ksh 1,000</td>
+            </tr>
+
+            <tr>
+                <td>Maternal and Child Health</td>
+                <td>Dr. Mary ndanu</td>
+                <td>Monday, Wednesday, Friday</td>
+                <td>09:00 AM - 02:00 PM</td>
+                <td>Ksh 2,500</td>
+            </tr>
+
+            <tr>
+                <td>Physiotherapy & rehabilitation</td>
+                <td>Dr. David Mwaura</td>
+                <td>Tuesday and Thursday</td>
+                <td>10:00 AM - 05:00 PM</td>
+                <td>Ksh 3,500</td>
+            </tr>
+
+            <tr>
+                <td>Dental Care</td>
+                <td>Dr. Lucy Njeri</td>
+                <td>Monday - Saturday</td>
+                <td>08:30 AM - 03:30 PM</td>
+                <td>Ksh 2,000</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <footer>
+        <p>&copy; 2026 ST Mary's outpatient hospital. All Rights Reserved.</p>
+    </footer>
+
+</body>
